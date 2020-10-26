@@ -1,5 +1,8 @@
 body {
-  background-image: url("http://online.tracker.ua/zskins/default_urban/images/login/bg4.jpg") center/cover
+  background-image: url("http://online.tracker.ua/zskins/default_urban/images/login/bg4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center !important;
 }
 
 .outer-parent .header {
