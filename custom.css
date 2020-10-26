@@ -33,6 +33,7 @@ body {
 .outer-parent #auth-form input[type="submit"] {
     border-radius: 3px;
     background: #f1705d;
+    transition: .4s;
 }
 
 .outer-parent #auth-form input[type="submit"]:hover {
