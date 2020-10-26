@@ -1,15 +1,16 @@
 body {
-  background-image: url("http://online.tracker.ua/zskins/default_urban/images/login/bg4.jpg")
+  background-image: url("http://online.tracker.ua/zskins/default_urban/images/login/bg4.jpg") center/cover
 }
 
 .outer-parent .header {
-    background-color: #566270;
+    background-color: rgba(86, 98, 112, .9);
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
 }
 
 .outer-parent .form-container {
         background-color: rgba(87, 102, 118, .7);
+        background: unset;
 }
 
 .outer-parent .wrapper {
