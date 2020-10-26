@@ -1,6 +1,6 @@
 
 body {
-    background-image: url("/zskins/default_urban/images/login/bg4.jpg")
+    background-image: url("http://online.tracker.ua/zskins/default_urban/images/login/bg4.jpg")
 }
 
 .outer-parent .header {
@@ -10,7 +10,7 @@ body {
 }
 
 .outer-parent .form-container {
-    background-color: #576676;
+        background-color: rgba(87, 102, 118, .7);
 }
 
 .outer-parent .wrapper {
@@ -21,6 +21,11 @@ body {
 .outer-parent #auth-form input {
     border-radius: 3px;
     background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.outer-parent #auth-form input::placeholder {
+    color: #fff
 }
 
 .outer-parent #auth-form input[type="submit"] {
