@@ -1,5 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-.outer-parent .inner-parent {
-    background: #ccc !important;
+body {
+    background-image: url("/zskins/default_urban/images/login/bg4.jpg")
 }
+
+.outer-parent .header {
+    background-color: #566270;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.outer-parent .form-container {
+    background-color: #576676;
+}
+
+.outer-parent .wrapper {
+    border-radius: 4px;
+}
+
+
+.outer-parent #auth-form input {
+    border-radius: 3px;
+    background-color: transparent;
+}
+
+.outer-parent #auth-form input[type="submit"] {
+    border-radius: 3px;
+}
+
