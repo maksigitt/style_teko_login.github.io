@@ -21,8 +21,12 @@ body {
 
 .outer-parent .wrapper {
     border-radius: 4px;
+    box-shadow: unset;
 }
 
+.outer-parent #auth-form {
+    width: 45%;
+}
 
 .outer-parent #auth-form input {
     border-radius: 3px;
