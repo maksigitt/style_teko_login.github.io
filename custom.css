@@ -16,7 +16,7 @@ body {
 }
 
 .outer-parent .form-container {
-    background: rgba(87, 102, 118, .5);
+    background: transparent;
 }
 
 .outer-parent .wrapper {
